@@ -7,7 +7,8 @@ const app = express();
 const PORT = 3000;
 
 // Database connection:
-mongoose.connect('mongodb+srv://piyushdubey490:alJkcbfAHMBI4X9S@clusterauth.2vehqq0.mongodb.net/', {
+mongoose.connect('use your own mongodb connection string', {
+  
 });
 mongoose.connection.on("connected", () => {
   console.log("Connected to the database");
